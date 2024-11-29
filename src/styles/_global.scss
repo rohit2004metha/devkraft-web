@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --primary: #7c16c4;
+  // --primary-hover: #651c99;
+  --primary-hover: #470092;
+  --secondary: #ff10f0;
+  --secondary-hover: #c700bd;
+  --body-bg: #fff;
+  --text-color: #010101;
+  --nav-bg: var(--body-bg);
+  --nav-link: var(--text-color);
+  --nav-link-hover: var(--primary);
+  --footer-bg: #444444;
+  --footer-color: #fefefe;
+  --footer-hover: var(--primary);
+
+  --gutter-width: 6vw;
+  --gap: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--body-bg);
+  background: var(--primary);
+}
+
+::selection {
+  color: var(--body-bg);
+  background: var(--primary);
+}
+
+/* Dark theme colors */
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --primary: #bb86fc;
+//     --primary-hover: #7c16c4;
+//     --secondary: #ff65ff;
+//     --secondary-hover: #ff10f0;
+//     --body-bg: #121212;
+//     --text-color: #fafafa;
+//     --nav-bg: var(--body-bg);
+//     --nav-link: var(--text-color);
+//     --nav-link-hover: var(--primary);
+//     --footer-bg: #444444;
+//     --footer-color: #fefefe;
+//     --footer-hover: var(--primary);
+//   }
+// }
