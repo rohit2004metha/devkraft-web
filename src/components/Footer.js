@@ -7,9 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <div>
           <div className="icon-container">
-            {/* <FiInstagram />
-            <FiLinkedin />
-            <FiFacebook /> */}
+            
             <a href="#">
               <FaInstagram />
             </a>
